@@ -1,5 +1,303 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/aed89df169.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>John Anthony Pesco's Portfolio</title>
+</head>
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+    nav{
+        box-shadow: 0 0 5px gray;
+    }
+    #portfolio #certificates img{
+        box-shadow: 0 0 5px rgb(0, 0, 0);
+        height: 230px;
+    }
+    #projects img{
+        box-shadow: 0 0 5px rgb(0, 0, 0);
+    }
+    form{
+        width: fit-content;
+        box-shadow: 0 0 5px black;
+        border-radius: 20px;
+    }
+</style>
+<body class="bg-[#fffdf0]">
+    <nav class="fixed right-0 top-0 w-full bg-white m-auto px-[5%] lg:px-[10%] flex justify-between h-[60px] items-center z-10">
+        <div>
+            <h1 class="flex items-center text-[#036d6b] font-bold"><img src="./assets/img/anthonylogo.png" class="w-[60px] mr-2">Anthony</h1>
+        </div>
+
+        <ul class="hidden lg:flex gap-[30px] items-center">
+            <a href="#home" class="uppercase hover:text-[#036d6b] font-semibold">Home</a>
+            <a href="#about" class="uppercase hover:text-[#036d6b] font-semibold">About Me</a>
+            <a href="#portfolio" class="uppercase hover:text-[#036d6b] font-semibold">Portfolio</a>
+            <a href="#contact" class="uppercase hover:text-[#036d6b] font-semibold">Contact Me</a>
+            <a href="https://pescojohnanthony.jobs180.com/" target="_blank" class="ml-20 flex gap-2 items-center bg-gradient-to-b from-[#07dedb] to-[#065b59] text-white px-3 py-2 rounded-[12px]"><i class="fa-solid fa-download"></i>Download my CV</a>
+        </ul>
+
+        <i id="menu" class="fa-solid fa-bars lg:hidden block text-[#036d6b] text-[26px] hover:cursor-pointer"></i>
+
+        <div id="menu-items" class="lg:hidden hidden grid absolute bg-white w-full top-[60px] right-0 px-[10%] h-[40vh]" style="box-shadow: 0 5px 5px rgba(0, 0, 0, 0.422);">
+            <a href="#home" class="uppercase hover:text-[#036d6b] font-semibold">Home</a>
+            <a href="#about" class="uppercase hover:text-[#036d6b] font-semibold">About Me</a>
+            <a href="#portfolio" class="uppercase hover:text-[#036d6b] font-semibold">Portfolio</a>
+            <a href="#contact" class="uppercase hover:text-[#036d6b] font-semibold">Contact Me</a>
+            <a href="https://pescojohnanthony.jobs180.com/" target="_blank" class="mb-4 w-fit flex gap-2 h-fit items-center bg-gradient-to-b from-[#07dedb] to-[#065b59] text-white px-3 py-2 rounded-[12px]"><i class="fa-solid fa-download"></i>Download my CV</a>
+        </div>
+
+    </nav>
+
+
+    <main class="px-[15%] mt-[120px] z-1">
+        <section id="home" class="flex flex-col-reverse items-center sm:flex-col-reverse lg:flex-row gap-2 justify-between scroll-mt-[120px]">
+            <div class="mt-10">
+                <h1 class="text-[35px]">Hello! I am</h1>
+                <h1 class="text-[40px] font-semibold">John Anthony Pesco</h1>
+                <h1 class="text-[50px] text-[#036d6b] font-bold">System Developer</h1>
+
+                <div class="mt-6 flex gap-3">
+                    <a href="https://www.facebook.com/jann.0008" target="_blank" class="border-[#036d6b] border-2 hover:bg-[#036d6b] hover:text-white px-3 py-2 rounded-[12px]"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/jann.0008" target="_blank" class="border-[#036d6b] border-2 hover:bg-[#036d6b] hover:text-white px-3 py-2 rounded-[12px]"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/jann0008" target="_blank" class="border-[#036d6b] border-2 hover:bg-[#036d6b] hover:text-white px-3 py-2 rounded-[12px]"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/Jann010" target="_blank" class="border-[#036d6b] border-2 hover:bg-[#036d6b] hover:text-white px-3 py-2 rounded-[12px]"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <div class="flex gap-3 mt-6 items-center">
+                    <a href="#" class="flex items-center gap-2 bg-[#036d6b] text-white px-3 py-2 rounded-[12px] hover:animate-bounce"><i class="fa-solid fa-phone"></i>Contact Me</a>
+                    <a href="https://pescojohnanthony.jobs180.com/" target="_blank" class="flex gap-2 items-center border-[#036d6b] border-[1px] hover:animate-bounce px-3 py-2 rounded-[12px]"><i class="fa-solid fa-download"></i>Download my CV</a>
+                </div>
+            </div>
+
+            <div>
+                <img src="./assets/img/me.jpg" alt="" class="w-[450px] rounded-full">
+            </div>
+        </section>
+
+        <div class="flex gap-2 justify-center mt-24">
+            <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[2px] rounded-[12px] w-16">
+            <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[2px] rounded-[12px] w-8">
+        </div>
+
+        <section id="about" class="mt-24 justify-center scroll-mt-[80px] flex flex-col items-center">
+            <h1 class="text-center text-[40px] font-semibold">About Me</h1>
+
+            <div class="flex flex-col lg:flex-row justify-between mt-10 ">
+                <div class="lg:mr-10 mb-10 lg:mb-0">
+                    <img src="./assets/img/meee.jpg" alt="" class="w-[450px] h-[480px] rounded-[20px] m-auto">
+                </div>
+
+                <div class="lg:w-1/2">
+                    <p class="text-justify tracking-wide leading-8">
+                        I'm <span class="text-[#036d6b] font-bold uppercase text-[20px]">John Anthony Pesco</span> a goal-oriented person who is driven to succeed 
+                        and is driven by ambition. I push myself toward achievement under the 
+                        direction of a results-oriented attitude, gaining the respect of both 
+                        colleagues and peers. My goal acts as a compass, pointing the way in 
+                        the direction of ongoing success. I am well-known in the business world 
+                        for my laser-like focus and unyielding tenacity. My dedication to greatness 
+                        is recognized by peers and colleagues alike, which has cemented my standing 
+                        as a renowned authority in the pursuit of success.
+                    </p>
+
+                    <a href="https://pescojohnanthony.jobs180.com/" target="_blank" class="lg:mt-24 mt-10 w-fit flex gap-2 items-center bg-gradient-to-b from-[#07dedb] to-[#065b59] text-white px-3 py-2 rounded-[12px] hover:animate-bounce"><i class="fa-solid fa-download"></i>Download my CV</a>
+                </div>
+            </div>
+
+            <h1 class="text-center text-[30px] font-semibold mt-24 text-[#036d6b]">Skill Set</h1>
+            <h1 class="text-center text-[20px] font-semibold mt-10 text-[#121212]">Front-end</h1>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 mt-10">
+                <img src="https://www.svgrepo.com/show/353925/javascript.svg" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/353884/html-5.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/452185/css-3.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/452092/react.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="" class="w-[100px] rounded-[10px]">
+            </div>
+
+            <h1 class="text-center text-[20px] font-semibold mt-10 text-[#121212]">Backend</h1>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 mt-10">
+                <img src="https://www.svgrepo.com/show/354180/php.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/376337/node-js.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/303232/mongodb-logo.svg" alt="" class="w-[100px] rounded-[10px]">
+            </div>
+
+            <h1 class="text-center text-[20px] font-semibold mt-10 text-[#121212]">Others</h1>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 mt-10">
+                <img src="https://www.svgrepo.com/show/374187/word.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/373589/excel.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/341669/canva.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/373989/powerpoint.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/452202/figma.svg" alt="" class="w-[100px] rounded-[10px]">
+                <img src="https://www.svgrepo.com/show/373968/photoshop.svg" alt="" class="w-[100px] rounded-[10px]">
+            </div>
+        </section>
+
+        <div class="flex gap-2 justify-center mt-24">
+            <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[2px] rounded-[12px] w-16">
+            <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[2px] rounded-[12px] w-8">
+        </div>
+
+        <section id="portfolio" class="mt-24 scroll-mt-[80px]">
+            <h1 class="text-center text-[40px] font-semibold">Portfolio</h1>
+            
+            <h1 class="text-center text-[20px] font-semibold mt-10 text-[#036d6b]">Checkout my Certificates</h1>
+            
+            <div id="certificates" class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <img src="./assets/img/assetcreation.png" alt="" class="w-[330px] border-[#036d6b] border-[1px] rounded-[15px]">
+                <img src="./assets/img/bpo.png" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/humanitarian.png" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/thriving.png" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/dataanalytics.png" alt="" class="w-[330px]  rounded-[15px]">
+                <img src="./assets/img/best.jpg" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/database exam.jpg" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/database.jpg" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/css.jpg" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/icss.jpg" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/mcsn.jpg" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/suss.jpg" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+                <img src="./assets/img/ncii-css.jpg" alt="" class="w-[330px] border-[#036d6b] border-[1px]  rounded-[15px]">
+            </div>
+
+            <h1 class="text-center text-[20px] font-semibold mt-24 text-[#036d6b]">Checkout my Recent Project</h1>
+            
+            <div id="projects" class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="w-fit flex flex-col ">
+                    <img src="./assets/img/ampms.jpg" alt="" class="w-[330px] h-[170px] rounded-[15px]">
+                    <p class="text-[#036d6b] font-semibold px-1 mt-1">Ampms</p>
+                    <p class="w-[340px] text-[12px] px-1">AMPMS is a Attendance and Payroll Management System of a Team Intelligence</p>
+                    <a href="https://drive.google.com/drive/u/0/folders/1FDmpdUwRW2DiYjfQ7QK-EZBhkCwT8Zxz" target="_blank" class="flex gap-2 items-center text-[13px] px-1 border-b-[1px] border-[#036d6b] w-fit mt-3 hover:gap-4 font-semibold">Visit Project<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="w-fit flex flex-col ">
+                    <img src="./assets/img/lucidity.png" alt="" class="w-[330px] h-[170px] rounded-[15px]">
+                    <p class="text-[#036d6b] font-semibold px-1 mt-1">Lucidity</p>
+                    <p class="w-[340px] text-[12px] px-1">Lucidity is a e-commerce website/system that the user can view, add to cart, and checkout a item.</p>
+                    <a href="https://drive.google.com/drive/u/0/folders/12dtdeChUzOsxb90m_78Ug9XzFnBALmII" target="_blank" class="flex gap-2 items-center text-[13px] px-1 border-b-[1px] border-[#036d6b] w-fit mt-3 hover:gap-4 font-semibold">Visit Project<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="w-fit flex flex-col ">
+                    <img src="./assets/img/catalog.jpg" alt="" class="w-[330px] h-[170px] rounded-[15px]">
+                    <p class="text-[#036d6b] font-semibold px-1 mt-1">Team Intelligence Catalog</p>
+                    <p class="w-[340px] text-[12px] px-1">A Team Intelligence Catalouge is a website that the user can view their offered services.</p>
+                    <a href="https://drive.google.com/drive/u/0/folders/12qPFnp4GGBbYl8MEjB3n60Iu8CsrCfY3" target="_blank" class="flex gap-2 items-center text-[13px] px-1 border-b-[1px] border-[#036d6b] w-fit mt-3 hover:gap-4 font-semibold">Visit Project<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="w-fit flex flex-col ">
+                    <img src="./assets/img/evaluator.png" alt="" class="w-[330px] h-[170px] rounded-[15px]">
+                    <p class="text-[#036d6b] font-semibold px-1 mt-1">Student Evaluator System</p>
+                    <p class="w-[340px] text-[12px] px-1">A Student Evaluator System is a system that the Faculty can evaluate a student.</p>
+                    <a href="https://drive.google.com/drive/folders/10otrZ1e4egxKKygwayfgjQzvtslx3bGx?fbclid=IwAR3yZP-rFoXD__SbUddjfAwBOinNcY-2-OI6vPZ-vZf_RLCAReeVQGzh2Fk" target="_blank" class="flex gap-2 items-center text-[13px] px-1 border-b-[1px] border-[#036d6b] w-fit mt-3 hover:gap-4 font-semibold">Visit Project<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="w-fit flex flex-col ">
+                    <img src="./assets/img/petmed.png" alt="" class="w-[330px] h-[170px] rounded-[15px]">
+                    <p class="text-[#036d6b] font-semibold px-1 mt-1">PetMed</p>
+                    <p class="w-[340px] text-[12px] px-1">PetMed is an android application that the user can book their chosen services to their pets</p>
+                    <a href="https://drive.google.com/drive/u/0/folders/15wNFdyvziDln1nbbUNN9vI57bI24qeuO" target="_blank" class="flex gap-2 items-center text-[13px] px-1 border-b-[1px] border-[#036d6b] w-fit mt-3 hover:gap-4 font-semibold">Visit Project<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="w-fit flex flex-col ">
+                    <img src="./assets/img/resort.jpg" alt="" class="w-[330px] h-[170px] rounded-[15px]">
+                    <p class="text-[#036d6b] font-semibold px-1 mt-1">Resort Management System</p>
+                    <p class="w-[340px] text-[12px] px-1">A resort management system is the user can book his/her chosen room of the hotel.</p>
+                    <a href="https://drive.google.com/drive/folders/10otrZ1e4egxKKygwayfgjQzvtslx3bGx?fbclid=IwAR3yZP-rFoXD__SbUddjfAwBOinNcY-2-OI6vPZ-vZf_RLCAReeVQGzh2Fk" target="_blank" class="flex gap-2 items-center text-[13px] px-1 border-b-[1px] border-[#036d6b] w-fit mt-3 hover:gap-4 font-semibold">Visit Project<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="w-fit flex flex-col ">
+                    <img src="./assets/img/academicheck.png" alt="" class="w-[330px] h-[170px] rounded-[15px]">
+                    <p class="text-[#036d6b] font-semibold px-1 mt-1">ACADEMICHECK</p>
+                    <p class="w-[340px] text-[12px] px-1">A AcademiCheck is a system that focuses on student attendance monitoring.</p>
+                    <a href="https://github.com/Jann100815/ATTENDANCE-MONITORING-SYSTEM.git" target="_blank" class="flex gap-2 items-center text-[13px] px-1 border-b-[1px] border-[#036d6b] w-fit mt-3 hover:gap-4 font-semibold">Visit Project<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="w-fit flex flex-col ">
+                    <img src="./assets/img/arkvisions.png" alt="" class="w-[330px] h-[170px] rounded-[15px]">
+                    <p class="text-[#036d6b] font-semibold px-1 mt-1">ARK VISIONS APPOINTMENT SYSTEM</p>
+                    <p class="w-[340px] text-[12px] px-1">A Ark Visions Appointment System is a system that the user can book their chosen services.</p>
+                    <a href="https://github.com/SDEG77/TRIPLE-SUBJECTS.git" target="_blank" class="flex gap-2 items-center text-[13px] px-1 border-b-[1px] border-[#036d6b] w-fit mt-3 hover:gap-4 font-semibold" >Visit Project<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="flex gap-2 justify-center mt-24">
+            <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[2px] rounded-[12px] w-16">
+            <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[2px] rounded-[12px] w-8">
+        </div>
+
+        <section id="contact" class="h-[100vh] mt-24 scroll-mt-[80px] flex flex-col items-center">
+            <h1 class="text-center text-[40px] font-semibold">Contact Me</h1>
+
+            <form action="#" class="px-10 py-12 w-fit flex flex-col justify-center items-center gap-5 mt-10">
+                <h1 class="text-center text-[20px] font-semibold text-[#036d6b] mb-8">Get in touch</h1>
+
+                <div class="flex flex-col lg:flex-row justify-center gap-5 relative">
+                    <div class="flex flex-col px-5">
+                        <input type="text" placeholder="Full Name" class="border-[#036d6b] border-[1px] w-full px-3 py-2 rounded-[12px] outline-none">
+                        <input type="text" placeholder="Email" class="border-[#036d6b] border-[1px] w-full px-3 py-2 rounded-[12px] outline-none mt-3">
+                        <textarea name="message" id="" placeholder="Message" class="border-[#036d6b] border-[1px] h-[100px] w-full px-3 py-2 rounded-[12px] outline-none mt-3"></textarea>
+
+                        <button class="font-semibold bg-gradient-to-b from-[#07dedb] to-[#065b59] uppercase text-white px-[30px] py-2 rounded-[12px] mt-3 w-fit">Send</button>
+                    </div>
+
+                    <!-- <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[1px] rounded-[12px] w-[16%] top-32 rotate-90 absolute">
+                    <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[1px] rounded-[12px] w-[27%] top-32 right-0 rotate-90 absolute">
+                    <hr class="bg-gradient-to-b from-[#07dedb] to-[#036d6b] py-[1px] rounded-[12px] w-[27%] top-32 left-0 rotate-90 absolute"> -->
+
+                    <div class="flex flex-col ">
+                        <p class="flex gap-4 items-center"><i class="fa-solid fa-location-dot text-[#036d6b] text-[20px]"></i>Location:San Cristobal, Licab, Nueva Ecija</p>
+                        <p class="flex gap-4 items-center mt-4"><i class="fa-solid fa-phone text-[#036d6b] text-[20px]"></i>Phone:09193294773</p>
+                        <p class="flex gap-4 items-center mt-4"><i class="fa-solid fa-envelope text-[#036d6b] text-[20px]"></i>Email:joli.pesco.au@phinmaed.com</p>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="py-10 flex flex-col justify-center items-center mt-64 lg:mt-0" style="box-shadow: 0 0 5px black;">
+        <h1 class="text-center text-[30px] font-semibold uppercase text-[#036d6b]">Anthony</h1>
+
+        <ul class="flex gap-[30px] items-center mt-5">
+            <a href="#home" class="uppercase hover:text-[#036d6b] font-semibold">Home</a>
+            <a href="#about" class="uppercase hover:text-[#036d6b] font-semibold">About Me</a>
+            <a href="#portfolio" class="uppercase hover:text-[#036d6b] font-semibold">Portfolio</a>
+            <a href="#contact" class="uppercase hover:text-[#036d6b] font-semibold">Contact Me</a>
+        </ul>
+
+        <div class="mt-6 flex gap-5">
+            <a href="https://www.facebook.com/jann.0008" target="_blank" class="border-[#036d6b] border-2 hover:bg-[#036d6b] hover:text-white px-3 py-2 rounded-[12px]"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/jann.0008" target="_blank" class="border-[#036d6b] border-2 hover:bg-[#036d6b] hover:text-white px-3 py-2 rounded-[12px]"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com/jann0008" target="_blank" class="border-[#036d6b] border-2 hover:bg-[#036d6b] hover:text-white px-3 py-2 rounded-[12px]"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/Jann010" target="_blank" class="border-[#036d6b] border-2 hover:bg-[#036d6b] hover:text-white px-3 py-2 rounded-[12px]"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <hr class="bg-[#036d6b] h-[2px] w-[30%] mt-10">
+
+        <p class="mt-5 font-regular flex items-center gap-2">Copyright <span class="text-[#036d6b] font-bold text-[20px]">&copy;</span> John Anthony Pesco. All Rights Reserved</p>
+    </footer>
+</body>
+
+<script>
+    const menu = document.getElementById('menu');
+    const nav = document.getElementById('menu-items');
+    menu.addEventListener('click', () => {
+        if (nav.classList.contains('hidden')) {
+            nav.classList.remove('hidden');
+        } else {
+            nav.classList.add('hidden');
+        }
+        
+    })
+</script>
+</html>
